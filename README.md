@@ -1,173 +1,95 @@
-# <div align="center">
+<div align="center">
 
-# 👋 Hi, I'm **Manas Khare**
+<img src="./assets/hero.svg" width="100%" alt="Manas Khare: AI Engineer · Full-Stack Developer"/>
 
-### *Final Year M.S. Computer Science Student @ Arizona State University*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=%3E+forward_pass(idea)+%E2%86%92+product;Training+on+real-world+problems...;Backpropagating+through+bugs+since+2021;Loss+%E2%86%93++%C2%B7++Impact+%E2%86%91" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1200&color=3BA4F6&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;AI+Engineer;Building+Products+That+Matter;Open+to+Software+Engineering+Opportunities" alt="Typing SVG" />
+<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://manaskhare.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=netlify&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=ManasKhare3005&style=for-the-badge&color=22D3EE&label=NEURONS+FIRED"/>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%"/>
 
-## 💫 About Me
+## ◉ Layer 0 · Input — *who is this?*
 
-I'm a **Final Year M.S. Computer Science** student at **Arizona State University** passionate about building scalable software and AI-powered applications.
+I'm a **final-year M.S. Computer Science** student at **Arizona State University**. I like taking an idea from a napkin sketch to production, combining **backend engineering**, **modern web** and **AI** to solve real problems.
 
-I enjoy taking ideas from concept to production by combining **backend engineering**, **modern web technologies**, and **artificial intelligence** to solve real-world problems.
+```yaml
+model_card:
+  name:            manas-khare
+  version:         2026.final-year
+  architecture:    Full-Stack ⨉ AI Engineer
+  trained_on:      [ASU M.S. CS, hackathons, late-night side projects]
+  specializations: [LLM apps, AI agents, scalable backends, cloud]
+  domains:         [FinTech 📈, HealthTech 🏥, Productivity ⚡]
+  currently_learning: [LLMs, AI agents, distributed systems, cloud-native]
+  objective:       join a high-impact software engineering team
+  inference:       ✅ open to SWE opportunities
+```
 
-My interests include:
+<img src="./assets/divider.svg" width="100%"/>
 
-* 🤖 Artificial Intelligence & LLM Applications
-* 🌐 Full Stack Development
-* ☁️ Cloud Computing
-* 📈 Financial Technology
-* 🏥 Healthcare Technology
-* 🚀 Building products with real-world impact
+## ◉ Layer 1 · Hidden — *things I've built*
 
----
+<a href="https://github.com/ManasKhare3005?tab=repositories"><img src="./assets/project-stockintel.svg" width="100%" alt="Stock Intel: AI-powered financial intelligence platform"/></a>
+<a href="https://github.com/ManasKhare3005/Resumify"><img src="./assets/project-resumify.svg" width="100%" alt="Resumify: AI-driven resume optimization platform"/></a>
+<a href="https://github.com/ManasKhare3005/CuraConnect"><img src="./assets/project-curaconnect.svg" width="100%" alt="CuraConnect: full-stack healthcare platform"/></a>
 
-## 🚀 Featured Projects
+<p align="center"><sub>⭐ More neurons in my <a href="https://github.com/ManasKhare3005?tab=repositories">repositories</a>: AI, web, backend, automation &amp; cloud.</sub></p>
 
-### 📈 Stock Intel
+<img src="./assets/divider.svg" width="100%"/>
 
-An AI-powered financial intelligence platform delivering market insights, interactive visualizations, and data-driven analytics.
-
-**Tech:** Python • React • APIs • Machine Learning
-
----
-
-### 📄 Resumify
-
-An AI-driven resume optimization platform that helps candidates improve ATS compatibility and recruiter appeal.
-
-**Tech:** React • Node.js • Express • OpenAI
-
----
-
-### 🏥 CuraConnect
-
-A full-stack healthcare platform focused on improving communication and accessibility between patients and providers.
-
-**Tech:** MERN Stack • MongoDB • Express
-
----
-
-### ⭐ More Projects
-
-Explore my repositories to find projects spanning AI, web development, backend engineering, automation, and cloud technologies.
-
----
-
-## 🛠 Tech Stack
+## ◉ Layer 2 · Weights — *my stack*
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,html,css,mysql" />
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap" />
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" />
-
-### AI / Data
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-
-### Cloud & Tools
-
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,vscode,postman,vercel,linux" />
+| Layer | Parameters |
+|:--:|:--|
+| **Languages** | <img src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,html,css&theme=dark" height="36"/> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap&theme=dark" height="36"/> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" height="36"/> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql&theme=dark" height="36"/> |
+| **AI / Data** | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" height="36"/> |
+| **Cloud & Tools** | <img src="https://skillicons.dev/icons?i=aws,docker,git,github,vscode,postman,vercel,linux&theme=dark" height="36"/> |
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%"/>
 
-## 📊 GitHub Analytics
+## ◉ Layer 3 · Activations — *training metrics*
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ManasKhare3005&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ManasKhare3005&show_icons=true&hide_border=true&border_radius=14&bg_color=070b16&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&ring_color=f472b6"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManasKhare3005&layout=compact&hide_border=true&border_radius=14&bg_color=070b16&title_color=22d3ee&text_color=cbd5e1"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManasKhare3005&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManasKhare3005&hide_border=true&border_radius=14&background=070b16&ring=a78bfa&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=cbd5e1&dates=64748b&stroke=1e293b"/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ManasKhare3005&bg_color=070b16&color=cbd5e1&line=22d3ee&point=f472b6&area=true&area_color=a78bfa&title_color=22d3ee&hide_border=true&radius=14"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
+</picture>
 
 </div>
 
-<div align="center">
+<img src="./assets/divider.svg" width="100%"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManasKhare3005&theme=tokyonight&hide_border=true"/>
-
-</div>
+## ◉ Output — *let's connect*
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ManasKhare3005&theme=tokyo-night&hide_border=true"/>
+Recruiting, collaborating, or just want to talk about AI? **The network is listening.**
 
-</div>
+<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://manaskhare.netlify.app/"><img src="https://img.shields.io/badge/Explore_my_Portfolio-070b16?style=for-the-badge&logo=netlify&logoColor=22D3EE"/></a>
 
----
+<br/><br/>
 
-## 🌱 Currently Exploring
-
-* Large Language Models (LLMs)
-* AI Agents & Automation
-* Distributed Systems
-* Cloud-Native Development
-* Scalable Backend Architectures
-
----
-
-## 🎯 2026 Goals
-
-* 🚀 Build impactful AI products
-* 💼 Contribute to open source
-* ☁️ Deepen cloud engineering skills
-* 📚 Publish more technical projects
-* 🌎 Join a high-impact Software Engineering team
-
----
-
-## 🏆 Highlights
-
-* 🎓 Final Year M.S. Computer Science @ Arizona State University
-* 💡 Passionate about AI-powered software
-* 🏗️ Building products across Finance, Healthcare & Productivity
-* 🌍 Always learning and experimenting with new technologies
-
----
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/manas-khare-3b377818b">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://manaskhare.netlify.app/">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://github.com/ManasKhare3005">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-> *"The best way to predict the future is to build it."*
-
-<img src="https://komarev.com/ghpvc/?username=ManasKhare3005&style=for-the-badge&color=3BA4F6"/>
+<sub><i>"The best way to predict the future is to build it."</i></sub>
 
 </div>
