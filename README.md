@@ -65,12 +65,11 @@ model_card:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ManasKhare3005&show_icons=true&hide_border=true&border_radius=14&bg_color=070b16&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&ring_color=f472b6"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManasKhare3005&layout=compact&hide_border=true&border_radius=14&bg_color=070b16&title_color=22d3ee&text_color=cbd5e1"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/stats.svg" alt="GitHub stats"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ManasKhare3005&hide_border=true&border_radius=14&background=070b16&ring=a78bfa&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=cbd5e1&dates=64748b&stroke=1e293b"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ManasKhare3005&bg_color=070b16&color=cbd5e1&line=22d3ee&point=f472b6&area=true&area_color=a78bfa&title_color=22d3ee&hide_border=true&radius=14"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/activity.svg" alt="Contribution activity"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
