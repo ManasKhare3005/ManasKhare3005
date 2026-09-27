@@ -20,14 +20,28 @@ I'm a **final-year M.S. Computer Science** student at **Arizona State University
 model_card:
   name:            manas-khare
   version:         2026.final-year
-  architecture:    Full-Stack ⨉ AI Engineer
-  trained_on:      [ASU M.S. CS, hackathons, late-night side projects]
-  specializations: [LLM apps, AI agents, scalable backends, cloud]
+  architecture:    Full-Stack Engineer ⨉ ML / AI
+  pretraining:     B.Tech. CSE @ SRM  →  M.S. CS @ Arizona State University
+  fine_tuning:     2 yrs industry · EQG Glassmach · Brillio (+30% app efficiency)
+  specializations: [LLM apps, RAG, vision transformers, speech (Whisper), microservices]
   domains:         [FinTech 📈, HealthTech 🏥, Productivity ⚡]
-  currently_learning: [LLMs, AI agents, distributed systems, cloud-native]
   objective:       join a high-impact software engineering team
   inference:       ✅ open to SWE opportunities
 ```
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## ◉ Live inference — *right now*
+
+<img src="./assets/now.svg" width="100%" alt="Currently: M.S. CS at ASU, exploring vision transformers, shipping the Nocturne portfolio, stargazing"/>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## ◉ Training history — *the journey so far*
+
+<img src="./assets/timeline.svg" width="100%" alt="Timeline: B.Tech at SRM (2019–23), Oyesters, EQG Glassmach, Brillio, EQG Glassmach, M.S. CS at ASU (2025–present); 1st at Hack-A-Code, Top 5 HackBMU 4.0, Top 25 Zeta Hacks"/>
+
+<p align="center"><sub>📜 Certified: <b>Machine Learning</b> (Stanford) · <b>ML Foundations</b> (University of Washington) · <b>OCI Foundations</b> (Oracle)</sub></p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -43,18 +57,7 @@ model_card:
 
 ## ◉ Layer 2 · Weights — *my stack*
 
-<div align="center">
-
-| Layer | Parameters |
-|:--:|:--|
-| **Languages** | <img src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,html,css&theme=dark" height="36"/> |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap&theme=dark" height="36"/> |
-| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" height="36"/> |
-| **Databases** | <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql&theme=dark" height="36"/> |
-| **AI / Data** | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" height="36"/> |
-| **Cloud & Tools** | <img src="https://skillicons.dev/icons?i=aws,docker,git,github,vscode,postman,vercel,linux&theme=dark" height="36"/> |
-
-</div>
+<img src="./assets/stack.svg" width="100%" alt="Tech stack: AI/ML, Frontend, Backend, Languages, Cloud & DevOps"/>
 
 <img src="./assets/divider.svg" width="100%"/>
 
