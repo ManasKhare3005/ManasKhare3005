@@ -1,4 +1,4 @@
-"""Renders GitHub stats + activity SVGs in the profile's neural theme.
+"""Renders GitHub stats + activity SVGs in the profile's Nocturne style.
 
 Runs in the update-profile workflow with GITHUB_TOKEN, writing into dist/.
 Local preview with fake data: python3 scripts/generate_stats.py --mock
@@ -10,12 +10,13 @@ import random
 import sys
 import urllib.request
 
+
 LOGIN = os.environ.get("GITHUB_USER", "ManasKhare3005")
 OUT = os.environ.get("OUT_DIR", "dist")
-BG, BG2 = "#070b16", "#0d1428"
-CYAN, VIOLET, PINK, AMBER, GREEN, TEXT, MUTED = "#22d3ee", "#a78bfa", "#f472b6", "#fbbf24", "#34d399", "#e2e8f0", "#64748b"
-SANS = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nocturne import GOLD, SILVER, ROSE, SEA, TEXT, SOFT, MUTED, SERIF, esc, sparkle, svg, caps, header  # noqa: E402
+
+SPECTRUM = [GOLD, SILVER, ROSE, SEA, "#c9b8ff", "#f0b58a"]
 
 QUERY = """
 query($login: String!) {
@@ -66,79 +67,56 @@ def mock():
                                         "contributionCalendar": {"totalContributions": sum(d["contributionCount"] for d in days), "weeks": weeks}}}
 
 
-def esc(t):
-    return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-
 def fmt(n):
     return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
-
-
-DEFS = f'''<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<radialGradient id="bgg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></radialGradient>
-<linearGradient id="rail" x1="0" x2="1"><stop offset="0" stop-color="{CYAN}"/><stop offset="0.5" stop-color="{VIOLET}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>
-<style>.rise {{ animation: rise .9s ease-out both }} @keyframes rise {{ from {{ opacity: 0; transform: translateY(10px) }} to {{ opacity: 1; transform: none }} }}</style>'''
-
-
-def frame(w, h, title, inner, defs=""):
-    random.seed(5)
-    stars = "".join(f'<circle cx="{random.uniform(0, w):.0f}" cy="{random.uniform(0, h):.0f}" r="{random.choice([0.6, 0.9, 1.2])}" fill="#fff" opacity="{random.uniform(0.15, 0.5):.2f}"/>' for _ in range(45))
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{esc(title)}">'
-            f'<title>{esc(title)}</title><defs>{DEFS}{defs}</defs><rect width="{w}" height="{h}" rx="18" fill="url(#bgg)"/>{stars}{inner}</svg>')
-
-
-def header(label, sub, color):
-    return (f'<text x="40" y="48" font-family="{MONO}" font-size="15" fill="{color}" letter-spacing="3">{esc(label)}</text>'
-            f'<text x="1160" y="48" text-anchor="end" font-family="{MONO}" font-size="13" fill="{MUTED}">{esc(sub)}</text>')
 
 
 def stats_svg(u):
     cc = u["contributionsCollection"]
     repos = u["repositories"]["nodes"]
     metrics = [
-        ("contributions", cc["contributionCalendar"]["totalContributions"], CYAN),
-        ("commits", cc["totalCommitContributions"] + cc["restrictedContributionsCount"], CYAN),
-        ("pull requests", cc["totalPullRequestContributions"], VIOLET),
-        ("public repos", u["repositories"]["totalCount"], VIOLET),
-        ("stars earned", sum(r["stargazerCount"] for r in repos), PINK),
-        ("followers", u["followers"]["totalCount"], PINK),
+        ("contributions", cc["contributionCalendar"]["totalContributions"]),
+        ("commits", cc["totalCommitContributions"] + cc["restrictedContributionsCount"]),
+        ("pull requests", cc["totalPullRequestContributions"]),
+        ("public repos", u["repositories"]["totalCount"]),
+        ("stars earned", sum(r["stargazerCount"] for r in repos)),
+        ("followers", u["followers"]["totalCount"]),
     ]
-    W, Y = 1200, 150
-    xs = [120 + i * 192 for i in range(len(metrics))]
-    parts = [header("ACTIVATIONS.stats", "last 12 months · auto-updated", CYAN),
-             f'<path id="mr" d="M40,{Y} L1160,{Y}" stroke="url(#rail)" stroke-width="1.5" opacity="0.45"/>',
-             f'<circle r="3.5" fill="{PINK}" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#mr"/></animateMotion></circle>']
-    for i, ((label, val, c), x) in enumerate(zip(metrics, xs)):
+    cw = 1112 / len(metrics)
+    parts = [header("VI", "Observations", "last 12 months · refreshed twice a day")]
+    for i, (label, val) in enumerate(metrics):
+        cx = round(44 + cw * i + cw / 2)
+        if i:
+            parts.append(f'<line x1="{44 + cw * i:.0f}" y1="104" x2="{44 + cw * i:.0f}" y2="196" stroke="{GOLD}" stroke-opacity="0.12"/>')
         parts.append(f'<g class="rise" style="animation-delay:{i * 0.15:.2f}s">'
-                     f'<circle cx="{x}" cy="{Y}" r="46" fill="{BG}" stroke="{c}" stroke-width="2" filter="url(#glow)">'
-                     f'<animate attributeName="stroke-opacity" values="1;0.35;1" dur="3s" begin="{i * 0.4:.1f}s" repeatCount="indefinite"/></circle>'
-                     f'<text x="{x}" y="{Y + 9}" text-anchor="middle" font-family="{SANS}" font-size="27" font-weight="800" fill="{TEXT}">{fmt(val)}</text>'
-                     f'<text x="{x}" y="{Y + 76}" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{c}" letter-spacing="1">{esc(label.upper())}</text></g>')
+                     + sparkle(cx, 108, 4, GOLD, 0.8, (3, round(i * 0.5, 1))) +
+                     f'<text x="{cx}" y="160" text-anchor="middle" font-family="{SERIF}" font-size="48" fill="{GOLD}">{fmt(val)}</text>'
+                     + caps(cx, 190, label, MUTED, 10.5, "middle", 3) + '</g>')
 
     sizes = {}
     for r in repos:
         for e in r["languages"]["edges"]:
-            n = e["node"]["name"]
-            sizes.setdefault(n, [0, e["node"]["color"] or MUTED])[0] += e["size"]
-    top = sorted(sizes.items(), key=lambda kv: -kv[1][0])[:6]
-    total = sum(v[0] for _, v in top) or 1
-    BY = 290
-    parts.append(f'<text x="40" y="{BY - 16}" font-family="{MONO}" font-size="13" fill="{VIOLET}" letter-spacing="3">TOP LANGUAGES</text>'
-                 f'<clipPath id="bar"><rect x="40" y="{BY}" width="1120" height="14" rx="7"/></clipPath><g clip-path="url(#bar)">'
-                 f'<rect x="40" y="{BY}" width="1120" height="14" fill="#fff" fill-opacity="0.06"/>')
-    x = 40.0
-    for i, (name, (size, color)) in enumerate(top):
-        w = 1120 * size / total
-        parts.append(f'<rect x="{x:.1f}" y="{BY}" width="0" height="14" fill="{color}">'
-                     f'<animate attributeName="width" from="0" to="{w:.1f}" begin="{0.3 + i * 0.15:.2f}s" dur="0.8s" fill="freeze"/></rect>')
+            sizes[e["node"]["name"]] = sizes.get(e["node"]["name"], 0) + e["size"]
+    top = sorted(sizes.items(), key=lambda kv: -kv[1])[:6]
+    total = sum(v for _, v in top) or 1
+    BY = 262
+    parts.append(caps(44, BY - 20, "Spectral lines · top languages", GOLD, 11.5, spacing=4) +
+                 f'<clipPath id="bar"><rect x="44" y="{BY}" width="1112" height="6" rx="3"/></clipPath>'
+                 f'<rect x="44" y="{BY}" width="1112" height="6" rx="3" fill="{GOLD}" fill-opacity="0.08"/><g clip-path="url(#bar)">')
+    x = 44.0
+    for i, (name, size) in enumerate(top):
+        w = 1112 * size / total
+        parts.append(f'<rect x="{x:.1f}" y="{BY}" width="0" height="6" fill="{SPECTRUM[i]}">'
+                     f'<animate attributeName="width" from="0" to="{max(w - 3, 0):.1f}" begin="{0.4 + i * 0.15:.2f}s" dur="0.9s" fill="freeze"/></rect>')
         x += w
     parts.append('</g>')
-    for i, (name, (size, color)) in enumerate(top):
-        lx, ly = 40 + (i % 6) * 190, BY + 48
-        parts.append(f'<circle cx="{lx + 6}" cy="{ly - 5}" r="6" fill="{color}"/>'
-                     f'<text x="{lx + 20}" y="{ly}" font-family="{SANS}" font-size="15" fill="{TEXT}">{esc(name)}'
-                     f'<tspan dx="8" font-family="{MONO}" font-size="13" fill="{MUTED}">{100 * size / total:.1f}%</tspan></text>')
-    return frame(W, 370, f"GitHub stats for {LOGIN}", "".join(parts))
+    lw = 1112 / 6
+    for i, (name, size) in enumerate(top):
+        lx = 44 + lw * i
+        parts.append(sparkle(lx + 5, 300, 5, SPECTRUM[i], 1) +
+                     f'<text x="{lx + 18:.0f}" y="305" font-family="{SERIF}" font-size="16" fill="{TEXT}">{esc(name)}'
+                     f'<tspan dx="8" font-style="italic" font-size="14" fill="{MUTED}">{100 * size / total:.0f}%</tspan></text>')
+    return svg(1200, 340, f"GitHub stats for {LOGIN}", "".join(parts), seed=61, stars=55)
 
 
 def smooth(pts, floor):
@@ -157,41 +135,41 @@ def activity_svg(u):
     weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"][-26:]
     counts = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks]
     starts = [w["contributionDays"][0]["date"] for w in weeks]
-    W, H, L, R, T, B = 1200, 330, 70, 1150, 100, 262
+    L, R, T, B = 80, 1140, 118, 262
     peak = max(counts, default=0) or 1
     step = (R - L) / max(len(counts) - 1, 1)
     pts = [(L + i * step, B - (B - T) * c / peak) for i, c in enumerate(counts)] or [(L, B), (R, B)]
     line = smooth(pts, B)
     area = f"{line} L{pts[-1][0]:.1f},{B} L{L},{B} Z"
-    grid = "".join(f'<line x1="{L}" y1="{y:.0f}" x2="{R}" y2="{y:.0f}" stroke="#fff" stroke-opacity="0.06"/>'
-                   f'<text x="{L - 14}" y="{y + 4:.0f}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">{v}</text>'
+    grid = "".join(f'<line x1="{L}" y1="{y:.0f}" x2="{R}" y2="{y:.0f}" stroke="{GOLD}" stroke-opacity="0.07" stroke-dasharray="1 5"/>'
+                   f'<text x="{L - 16}" y="{y + 4:.0f}" text-anchor="end" font-family="{SERIF}" font-style="italic" font-size="12" fill="{MUTED}">{v}</text>'
                    for v, y in ((round(peak * f), B - (B - T) * f) for f in (0, 0.5, 1)))
     months, seen = [], set()
-    for i, s in enumerate(starts):
-        m = s[:7]
-        if m not in seen:
-            seen.add(m)
-            if i:  # skip the partial first month label
-                months.append(f'<text x="{L + i * step:.0f}" y="{B + 28}" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{MUTED}">{dt.date.fromisoformat(s).strftime("%b").upper()}</text>')
-    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.5" fill="{BG}" stroke="{VIOLET}" stroke-width="1.5"/>' for x, y in pts)
+    for i, st in enumerate(starts):
+        if st[:7] not in seen:
+            seen.add(st[:7])
+            if i:  # skip the partial first month
+                months.append(caps(round(L + i * step), B + 30, dt.date.fromisoformat(st).strftime("%b"), MUTED, 10.5, "middle", 3))
+    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.8" fill="{GOLD}" opacity="0.8"/>' for x, y in pts)
     peak_mark = ""
     if counts and max(counts):
         pi = max(range(len(counts)), key=counts.__getitem__)
         px, py = pts[pi]
         anchor = "start" if pi < 3 else "end" if pi > len(pts) - 4 else "middle"
-        peak_mark = (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="5" fill="{PINK}" filter="url(#glow)">'
-                     f'<animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle>'
-                     f'<text x="{px:.0f}" y="{py - 16:.0f}" text-anchor="{anchor}" font-family="{MONO}" font-size="12" fill="{PINK}">peak week · {max(counts)}</text>')
-    defs = (f'<linearGradient id="af" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{VIOLET}" stop-opacity="0.45"/>'
-            f'<stop offset="1" stop-color="{VIOLET}" stop-opacity="0"/></linearGradient>')
-    inner = (header("ACTIVITY.stream", f"{sum(counts)} contributions · last 26 weeks", VIOLET) + grid + "".join(months) +
+        peak_mark = (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="12" fill="{GOLD}" opacity="0.12" filter="url(#glow)"/>'
+                     + sparkle(px, py, 8, GOLD, 1, (2.5, 0)) +
+                     f'<text x="{px:.0f}" y="{py - 18:.0f}" text-anchor="{anchor}" font-family="{SERIF}" font-style="italic" font-size="14" '
+                     f'fill="{SOFT}">brightest week · {max(counts)}</text>')
+    defs = (f'<linearGradient id="af" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{GOLD}" stop-opacity="0.22"/>'
+            f'<stop offset="1" stop-color="{GOLD}" stop-opacity="0"/></linearGradient>')
+    inner = (header("VII", "Night log", f"{sum(counts)} contributions · last 26 weeks") + grid + "".join(months) +
              f'<path d="{area}" fill="url(#af)"><animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/></path>'
-             f'<path id="al" d="{line}" fill="none" stroke="url(#rail)" stroke-width="2.5" pathLength="100" stroke-dasharray="100" filter="url(#glow)">'
+             f'<path id="al" d="{line}" fill="none" stroke="{GOLD}" stroke-width="1.8" pathLength="100" stroke-dasharray="100">'
              f'<animate attributeName="stroke-dashoffset" from="100" to="0" dur="2.5s" fill="freeze"/></path>'
              + dots +
-             f'<circle r="3.5" fill="{CYAN}" filter="url(#glow)"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#al"/></animateMotion></circle>'
+             f'<circle r="2.6" fill="#fff" filter="url(#glow)"><animateMotion dur="10s" repeatCount="indefinite"><mpath href="#al"/></animateMotion></circle>'
              + peak_mark)
-    return frame(W, H, f"GitHub contribution activity for {LOGIN}", inner, defs)
+    return svg(1200, 320, f"GitHub contribution activity for {LOGIN}", inner, seed=71, stars=55, defs=defs)
 
 
 if __name__ == "__main__":

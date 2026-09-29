@@ -1,97 +1,73 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Manas Khare: AI Engineer · Full-Stack Developer"/>
+<img src="./assets/hero.svg" width="100%" alt="Manas Khare, Full-Stack Engineer and ML / AI. M.S. Computer Science, Arizona State University. Open to software engineering roles."/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=%3E+forward_pass(idea)+%E2%86%92+product;Training+on+real-world+problems...;Backpropagating+through+bugs+since+2021;Loss+%E2%86%93++%C2%B7++Impact+%E2%86%91" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=24&pause=1400&color=F5D58A&center=true&vCenter=true&width=720&lines=Full-stack+products%2C+shipped+end+to+end.;Teaching+machines+to+see%2C+listen+and+read.;Patiently%2C+curiously%2C+one+small+light+at+a+time." alt="Full-stack products, shipped end to end. Teaching machines to see, listen and read."/>
 
-<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://manaskhare.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=netlify&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=ManasKhare3005&style=for-the-badge&color=22D3EE&label=NEURONS+FIRED"/>
+<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/LinkedIn-0e1330?style=for-the-badge&logo=linkedin&logoColor=F5D58A"/></a>
+<a href="https://manaskhare.netlify.app/"><img src="https://img.shields.io/badge/Portfolio_·_Nocturne-0e1330?style=for-the-badge&logo=netlify&logoColor=F5D58A"/></a>
+<img src="https://komarev.com/ghpvc/?username=ManasKhare3005&style=for-the-badge&color=0e1330&label=STARGAZERS"/>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## ◉ Layer 0 · Input — *who is this?*
-
-I'm a **final-year M.S. Computer Science** student at **Arizona State University**. I like taking an idea from a napkin sketch to production, combining **backend engineering**, **modern web** and **AI** to solve real problems.
-
-```yaml
-model_card:
-  name:            manas-khare
-  version:         2026.final-year
-  architecture:    Full-Stack Engineer ⨉ ML / AI
-  pretraining:     B.Tech. CSE @ SRM  →  M.S. CS @ Arizona State University
-  fine_tuning:     2 yrs industry · EQG Glassmach · Brillio (+30% app efficiency)
-  specializations: [LLM apps, RAG, vision transformers, speech (Whisper), microservices]
-  domains:         [FinTech 📈, HealthTech 🏥, Productivity ⚡]
-  objective:       join a high-impact software engineering team
-  inference:       ✅ open to SWE opportunities
-```
+> *Dear visitor,*
+>
+> *Thank you for stopping by. I'm Manas, a software engineer pursuing my Master's in Computer Science at **Arizona State University**. Before graduate school I spent two years building real systems: order-management platforms at **EQG Glassmach** and microservice back-ends at **Brillio**, where API and architecture work made one application **30% faster**.*
+>
+> *Lately I've been living where software meets machine learning: vision transformers that learn to click through dashboards, speech models that listen to care calls, and language models that turn documents into maps of ideas.*
+>
+> *Yours, under the same sky,*<br/>
+> *Manas*
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## ◉ Live inference — *right now*
+<img src="./assets/now.svg" width="100%" alt="Tonight: studying for an M.S. in CS at ASU, exploring vision transformers, Whisper, RAG and LoRA, shipping the Nocturne portfolio, and stargazing."/>
 
-<img src="./assets/now.svg" width="100%" alt="Currently: M.S. CS at ASU, exploring vision transformers, shipping the Nocturne portfolio, stargazing"/>
+<img src="./assets/timeline.svg" width="100%" alt="The journey: B.Tech CSE at SRM (2019–2023), Technical Content Writer at Oyesters (2020), Software Developer Trainee at EQG Glassmach (2023–24), Associate Engineer at Brillio (2024), Software Developer at EQG Glassmach (2024–25), M.S. CS at Arizona State University (2025–present). Honours: first place at Hack-A-Code, Top 5 at HackBMU 4.0, Top 25 at Zeta Hacks."/>
 
-<img src="./assets/divider.svg" width="100%"/>
-
-## ◉ Training history — *the journey so far*
-
-<img src="./assets/timeline.svg" width="100%" alt="Timeline: B.Tech at SRM (2019–23), Oyesters, EQG Glassmach, Brillio, EQG Glassmach, M.S. CS at ASU (2025–present); 1st at Hack-A-Code, Top 5 HackBMU 4.0, Top 25 Zeta Hacks"/>
-
-<p align="center"><sub>📜 Certified: <b>Machine Learning</b> (Stanford) · <b>ML Foundations</b> (University of Washington) · <b>OCI Foundations</b> (Oracle)</sub></p>
+<p align="center"><sub><i>Certified in</i> <b>Machine Learning</b> (Stanford) · <b>ML Foundations</b> (University of Washington) · <b>OCI Foundations</b> (Oracle)</sub></p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## ◉ Layer 1 · Hidden — *things I've built*
+<img src="./assets/section-projects.svg" width="100%" alt="IV · Constellations: things I have built"/>
 
 <a href="https://github.com/ManasKhare3005?tab=repositories"><img src="./assets/project-stockintel.svg" width="100%" alt="Stock Intel: AI-powered financial intelligence platform"/></a>
 <a href="https://github.com/ManasKhare3005/Resumify"><img src="./assets/project-resumify.svg" width="100%" alt="Resumify: AI-driven resume optimization platform"/></a>
 <a href="https://github.com/ManasKhare3005/CuraConnect"><img src="./assets/project-curaconnect.svg" width="100%" alt="CuraConnect: full-stack healthcare platform"/></a>
 
-<p align="center"><sub>⭐ More neurons in my <a href="https://github.com/ManasKhare3005?tab=repositories">repositories</a>: AI, web, backend, automation &amp; cloud.</sub></p>
+<p align="center"><sub><i>More stars in the</i> <a href="https://github.com/ManasKhare3005?tab=repositories">repositories</a> <i>sky: AI, web, backend, automation &amp; cloud.</i></sub></p>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## ◉ Layer 2 · Weights — *my stack*
-
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: AI/ML, Frontend, Backend, Languages, Cloud & DevOps"/>
+<img src="./assets/stack.svg" width="100%" alt="Instruments. AI & ML: LLM apps, embeddings & RAG, PyTorch, TensorFlow, vision transformers, Whisper, LoRA. Frontend: React, TypeScript, Next.js, Tailwind, Three.js, D3. Backend: Node/Express, Spring Boot, FastAPI, Socket.IO, PostgreSQL, MySQL, MongoDB, Prisma. Languages: Python, Java, JavaScript, TypeScript, C/C++, SQL. Cloud & DevOps: Docker, GitHub Actions, microservices, Redis, AWS, Oracle Cloud, Linux."/>
 
 <img src="./assets/divider.svg" width="100%"/>
-
-## ◉ Layer 3 · Activations — *training metrics*
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/stats.svg" alt="GitHub stats"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/stats.svg" alt="VI · Observations: GitHub stats"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManasKhare3005&hide_border=true&border_radius=14&background=070b16&ring=a78bfa&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=cbd5e1&dates=64748b&stroke=1e293b"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ManasKhare3005&hide_border=true&border_radius=18&background=03040b&ring=f5d58a&fire=e8a0bf&currStreakNum=f5d58a&sideNums=efe9dc&currStreakLabel=f5d58a&sideLabels=b9bdd0&dates=7d839e&stroke=262c48" alt="Contribution streak"/>
 
-<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/activity.svg" alt="Contribution activity"/>
+<img width="100%" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/activity.svg" alt="VII · Night log: weekly contributions"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ManasKhare3005/ManasKhare3005/output/github-snake-dark.svg"/>
 </picture>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
 
-## ◉ Output — *let's connect*
-
 <div align="center">
 
-Recruiting, collaborating, or just want to talk about AI? **The network is listening.**
+<img src="./assets/coda.svg" width="100%" alt="VIII · Coda: recruiting, collaborating, or just curious? Write to me."/>
 
-<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://manaskhare.netlify.app/"><img src="https://img.shields.io/badge/Explore_my_Portfolio-070b16?style=for-the-badge&logo=netlify&logoColor=22D3EE"/></a>
-
-<br/><br/>
-
-<sub><i>"The best way to predict the future is to build it."</i></sub>
+<a href="https://www.linkedin.com/in/manas-khare-3b377818b"><img src="https://img.shields.io/badge/Write_to_me_on_LinkedIn-0e1330?style=for-the-badge&logo=linkedin&logoColor=F5D58A"/></a>
+<a href="https://manaskhare.netlify.app/#coda"><img src="https://img.shields.io/badge/Send_a_letter_·_Nocturne-0e1330?style=for-the-badge&logo=netlify&logoColor=F5D58A"/></a>
 
 </div>

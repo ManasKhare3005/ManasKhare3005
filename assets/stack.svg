@@ -1,125 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 638" width="1200" height="638" role="img" aria-label="Manas Khare's tech stack">
-<title>Manas Khare's tech stack</title>
-<defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="softglow" x="-20%" y="-50%" width="140%" height="200%">
-  <feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<radialGradient id="bgg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0d1428"/><stop offset="1" stop-color="#070b16"/></radialGradient>
-<linearGradient id="rail" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-</defs>
-<rect width="1200" height="638" rx="18" fill="url(#bgg)"/>
-<circle cx="1176" cy="559" r="1" fill="#fff" opacity="0.58"><animate attributeName="opacity" values="0.58;0.05;0.58" dur="3.3s" repeatCount="indefinite"/></circle>
-<circle cx="1128" cy="302" r="0.8" fill="#fff" opacity="0.34"><animate attributeName="opacity" values="0.34;0.05;0.34" dur="4.6s" repeatCount="indefinite"/></circle>
-<circle cx="342" cy="295" r="1" fill="#fff" opacity="0.52"><animate attributeName="opacity" values="0.52;0.05;0.52" dur="2.9s" repeatCount="indefinite"/></circle>
-<circle cx="291" cy="515" r="0.6" fill="#fff" opacity="0.21"><animate attributeName="opacity" values="0.21;0.05;0.21" dur="3.9s" repeatCount="indefinite"/></circle>
-<circle cx="179" cy="13" r="0.6" fill="#fff" opacity="0.20"><animate attributeName="opacity" values="0.20;0.05;0.20" dur="5.0s" repeatCount="indefinite"/></circle>
-<circle cx="952" cy="226" r="1" fill="#fff" opacity="0.59"><animate attributeName="opacity" values="0.59;0.05;0.59" dur="2.1s" repeatCount="indefinite"/></circle>
-<circle cx="222" cy="8" r="1.2" fill="#fff" opacity="0.56"><animate attributeName="opacity" values="0.56;0.05;0.56" dur="4.5s" repeatCount="indefinite"/></circle>
-<circle cx="724" cy="518" r="1.2" fill="#fff" opacity="0.32"><animate attributeName="opacity" values="0.32;0.05;0.32" dur="2.7s" repeatCount="indefinite"/></circle>
-<circle cx="963" cy="267" r="1" fill="#fff" opacity="0.34"/>
-<circle cx="35" cy="24" r="0.8" fill="#fff" opacity="0.57"/>
-<circle cx="970" cy="158" r="0.8" fill="#fff" opacity="0.50"/>
-<circle cx="1010" cy="263" r="1" fill="#fff" opacity="0.42"/>
-<circle cx="336" cy="108" r="0.6" fill="#fff" opacity="0.39"/>
-<circle cx="73" cy="521" r="1.2" fill="#fff" opacity="0.39"/>
-<circle cx="799" cy="592" r="1.2" fill="#fff" opacity="0.35"/>
-<circle cx="759" cy="187" r="0.6" fill="#fff" opacity="0.47"/>
-<circle cx="1191" cy="349" r="1.2" fill="#fff" opacity="0.51"/>
-<circle cx="533" cy="178" r="1" fill="#fff" opacity="0.38"/>
-<circle cx="1151" cy="99" r="1" fill="#fff" opacity="0.26"/>
-<circle cx="45" cy="310" r="0.8" fill="#fff" opacity="0.53"/>
-<circle cx="1118" cy="391" r="0.6" fill="#fff" opacity="0.33"/>
-<circle cx="717" cy="74" r="0.8" fill="#fff" opacity="0.31"/>
-<circle cx="851" cy="582" r="0.6" fill="#fff" opacity="0.37"/>
-<circle cx="91" cy="21" r="1.2" fill="#fff" opacity="0.56"/>
-<circle cx="1152" cy="411" r="0.8" fill="#fff" opacity="0.32"/>
-<circle cx="415" cy="417" r="1.2" fill="#fff" opacity="0.33"/>
-<circle cx="325" cy="606" r="1" fill="#fff" opacity="0.33"/>
-<circle cx="471" cy="180" r="0.8" fill="#fff" opacity="0.37"/>
-<circle cx="496" cy="574" r="1.2" fill="#fff" opacity="0.29"/>
-<circle cx="240" cy="51" r="0.6" fill="#fff" opacity="0.50"/>
-<circle cx="1006" cy="403" r="0.6" fill="#fff" opacity="0.58"/>
-<circle cx="1169" cy="442" r="1.2" fill="#fff" opacity="0.31"/>
-<circle cx="579" cy="171" r="0.6" fill="#fff" opacity="0.27"/>
-<circle cx="584" cy="107" r="0.8" fill="#fff" opacity="0.56"/>
-<circle cx="213" cy="633" r="1.2" fill="#fff" opacity="0.46"/>
-<circle cx="171" cy="35" r="0.8" fill="#fff" opacity="0.32"/>
-<circle cx="778" cy="83" r="0.8" fill="#fff" opacity="0.22"/>
-<circle cx="1153" cy="341" r="1.2" fill="#fff" opacity="0.51"/>
-<circle cx="520" cy="116" r="0.6" fill="#fff" opacity="0.31"/>
-<circle cx="158" cy="93" r="0.8" fill="#fff" opacity="0.35"/>
-<circle cx="1125" cy="385" r="0.8" fill="#fff" opacity="0.20"/>
-<circle cx="445" cy="91" r="1.2" fill="#fff" opacity="0.30"/>
-<circle cx="425" cy="607" r="1.2" fill="#fff" opacity="0.24"/>
-<circle cx="1016" cy="302" r="1" fill="#fff" opacity="0.41"/>
-<circle cx="1025" cy="282" r="1.2" fill="#fff" opacity="0.39"/>
-<circle cx="646" cy="282" r="1.2" fill="#fff" opacity="0.53"/>
-<circle cx="241" cy="379" r="0.8" fill="#fff" opacity="0.32"/>
-<circle cx="1031" cy="612" r="1" fill="#fff" opacity="0.31"/>
-<circle cx="243" cy="34" r="0.6" fill="#fff" opacity="0.36"/>
-<circle cx="1047" cy="73" r="0.6" fill="#fff" opacity="0.26"/>
-<style>.rise { animation: rise .9s ease-out both } @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }</style><text x="40" y="48" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#a78bfa" letter-spacing="3">WEIGHTS.matrix</text><text x="1160" y="48" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#64748b">35 parameters · 5 layers</text><g class="rise" style="animation-delay:0.0s">
-<rect x="30" y="132" width="190" height="40" rx="20" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.6"/><text x="48" y="157" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#22d3ee" opacity="0.7">L1</text><text x="76" y="157" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e2e8f0">AI / ML</text>
-<path id="r0_0" d="M220,152 C235,152 230,120 250,120 L786,120" stroke="#22d3ee" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="3.5s" begin="0.0s" repeatCount="indefinite"><mpath href="#r0_0"/></animateMotion></circle>
-<rect x="250" y="103" width="106" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="267" cy="120" r="4" fill="#22d3ee"/><text x="279" y="125" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">LLM Apps</text>
-<rect x="368" y="103" width="173" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="385" cy="120" r="4" fill="#22d3ee"/><text x="397" y="125" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Embeddings &amp; RAG</text>
-<rect x="553" y="103" width="98" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="570" cy="120" r="4" fill="#22d3ee"/><text x="582" y="125" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">PyTorch</text>
-<rect x="663" y="103" width="123" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="680" cy="120" r="4" fill="#22d3ee"/><text x="692" y="125" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">TensorFlow</text>
-<path id="r0_1" d="M220,152 C235,152 230,184 250,184 L743,184" stroke="#22d3ee" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="3.8s" begin="0.0s" repeatCount="indefinite"><mpath href="#r0_1"/></animateMotion></circle>
-<rect x="250" y="167" width="198" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="267" cy="184" r="4" fill="#22d3ee"/><text x="279" y="189" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Vision Transformers</text>
-<rect x="460" y="167" width="98" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="477" cy="184" r="4" fill="#22d3ee"/><text x="489" y="189" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Whisper</text>
-<rect x="570" y="167" width="173" height="34" rx="17" fill="#070b16" stroke="#22d3ee" stroke-opacity="0.45"/><circle cx="587" cy="184" r="4" fill="#22d3ee"/><text x="599" y="189" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">LoRA Fine-tuning</text>
-</g>
-<g class="rise" style="animation-delay:0.2s">
-<rect x="30" y="242" width="190" height="40" rx="20" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.6"/><text x="48" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#f472b6" opacity="0.7">L2</text><text x="76" y="267" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e2e8f0">Frontend</text>
-<path id="r1_0" d="M220,262 C235,262 230,262 250,262 L1017,262" stroke="#f472b6" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#f472b6" filter="url(#glow)"><animateMotion dur="3.9s" begin="0.3s" repeatCount="indefinite"><mpath href="#r1_0"/></animateMotion></circle>
-<rect x="250" y="245" width="82" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="267" cy="262" r="4" fill="#f472b6"/><text x="279" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">React</text>
-<rect x="344" y="245" width="123" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="360" cy="262" r="4" fill="#f472b6"/><text x="372" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">TypeScript</text>
-<rect x="478" y="245" width="98" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="496" cy="262" r="4" fill="#f472b6"/><text x="508" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Next.js</text>
-<rect x="589" y="245" width="106" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="606" cy="262" r="4" fill="#f472b6"/><text x="618" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Tailwind</text>
-<rect x="707" y="245" width="106" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="724" cy="262" r="4" fill="#f472b6"/><text x="736" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Three.js</text>
-<rect x="825" y="245" width="57" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="842" cy="262" r="4" fill="#f472b6"/><text x="854" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">D3</text>
-<rect x="894" y="245" width="123" height="34" rx="17" fill="#070b16" stroke="#f472b6" stroke-opacity="0.45"/><circle cx="911" cy="262" r="4" fill="#f472b6"/><text x="923" y="267" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">HTML / CSS</text>
-</g>
-<g class="rise" style="animation-delay:0.4s">
-<rect x="30" y="352" width="190" height="40" rx="20" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.6"/><text x="48" y="377" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a78bfa" opacity="0.7">L3</text><text x="76" y="377" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e2e8f0">Backend</text>
-<path id="r2_0" d="M220,372 C235,372 230,340 250,340 L786,340" stroke="#a78bfa" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="4.3s" begin="0.6s" repeatCount="indefinite"><mpath href="#r2_0"/></animateMotion></circle>
-<rect x="250" y="323" width="156" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="267" cy="340" r="4" fill="#a78bfa"/><text x="279" y="345" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Node / Express</text>
-<rect x="418" y="323" width="131" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="435" cy="340" r="4" fill="#a78bfa"/><text x="447" y="345" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Spring Boot</text>
-<rect x="562" y="323" width="98" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="578" cy="340" r="4" fill="#a78bfa"/><text x="590" y="345" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">FastAPI</text>
-<rect x="672" y="323" width="115" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="689" cy="340" r="4" fill="#a78bfa"/><text x="701" y="345" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Socket.IO</text>
-<path id="r2_1" d="M220,372 C235,372 230,404 250,404 L678,404" stroke="#a78bfa" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#a78bfa" filter="url(#glow)"><animateMotion dur="4.6s" begin="0.6s" repeatCount="indefinite"><mpath href="#r2_1"/></animateMotion></circle>
-<rect x="250" y="387" width="123" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="267" cy="404" r="4" fill="#a78bfa"/><text x="279" y="409" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">PostgreSQL</text>
-<rect x="385" y="387" width="82" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="402" cy="404" r="4" fill="#a78bfa"/><text x="414" y="409" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">MySQL</text>
-<rect x="478" y="387" width="98" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="496" cy="404" r="4" fill="#a78bfa"/><text x="508" y="409" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">MongoDB</text>
-<rect x="589" y="387" width="90" height="34" rx="17" fill="#070b16" stroke="#a78bfa" stroke-opacity="0.45"/><circle cx="606" cy="404" r="4" fill="#a78bfa"/><text x="618" y="409" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Prisma</text>
-</g>
-<g class="rise" style="animation-delay:0.6s">
-<rect x="30" y="462" width="190" height="40" rx="20" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.6"/><text x="48" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#fbbf24" opacity="0.7">L4</text><text x="76" y="487" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e2e8f0">Languages</text>
-<path id="r3_0" d="M220,482 C235,482 230,482 250,482 L882,482" stroke="#fbbf24" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="4.7s" begin="0.9s" repeatCount="indefinite"><mpath href="#r3_0"/></animateMotion></circle>
-<rect x="250" y="465" width="90" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="267" cy="482" r="4" fill="#fbbf24"/><text x="279" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Python</text>
-<rect x="352" y="465" width="73" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="369" cy="482" r="4" fill="#fbbf24"/><text x="381" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Java</text>
-<rect x="437" y="465" width="123" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="454" cy="482" r="4" fill="#fbbf24"/><text x="466" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">JavaScript</text>
-<rect x="572" y="465" width="123" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="589" cy="482" r="4" fill="#fbbf24"/><text x="601" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">TypeScript</text>
-<rect x="707" y="465" width="98" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="724" cy="482" r="4" fill="#fbbf24"/><text x="736" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">C / C++</text>
-<rect x="817" y="465" width="65" height="34" rx="17" fill="#070b16" stroke="#fbbf24" stroke-opacity="0.45"/><circle cx="834" cy="482" r="4" fill="#fbbf24"/><text x="846" y="487" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">SQL</text>
-</g>
-<g class="rise" style="animation-delay:0.8s">
-<rect x="30" y="540" width="190" height="40" rx="20" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.6"/><text x="48" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#34d399" opacity="0.7">L5</text><text x="76" y="565" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#e2e8f0">Cloud &amp; DevOps</text>
-<path id="r4_0" d="M220,560 C235,560 230,560 250,560 L1083,560" stroke="#34d399" stroke-opacity="0.3" fill="none"/>
-<circle r="3" fill="#34d399" filter="url(#glow)"><animateMotion dur="5.1s" begin="1.2s" repeatCount="indefinite"><mpath href="#r4_0"/></animateMotion></circle>
-<rect x="250" y="543" width="90" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="267" cy="560" r="4" fill="#34d399"/><text x="279" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Docker</text>
-<rect x="352" y="543" width="156" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="369" cy="560" r="4" fill="#34d399"/><text x="381" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">GitHub Actions</text>
-<rect x="520" y="543" width="148" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="537" cy="560" r="4" fill="#34d399"/><text x="549" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Microservices</text>
-<rect x="680" y="543" width="82" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="697" cy="560" r="4" fill="#34d399"/><text x="709" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Redis</text>
-<rect x="773" y="543" width="65" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="790" cy="560" r="4" fill="#34d399"/><text x="802" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">AWS</text>
-<rect x="850" y="543" width="140" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="867" cy="560" r="4" fill="#34d399"/><text x="879" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Oracle Cloud</text>
-<rect x="1002" y="543" width="82" height="34" rx="17" fill="#070b16" stroke="#34d399" stroke-opacity="0.45"/><circle cx="1019" cy="560" r="4" fill="#34d399"/><text x="1031" y="565" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#e2e8f0">Linux</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 532" width="1200" height="532" role="img" aria-label="Instruments: AI &amp; ML, Frontend, Backend, Languages, Cloud &amp; DevOps"><title>Instruments: AI &amp; ML, Frontend, Backend, Languages, Cloud &amp; DevOps</title><defs><radialGradient id="skyg" cx="50%" cy="0%" r="110%"><stop offset="0" stop-color="#0e1330"/><stop offset="1" stop-color="#03040b"/></radialGradient><filter id="haze" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="30"/></filter><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="softglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>.rise{animation:rise 1.1s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}</style></defs><rect width="1200" height="532" rx="18" fill="url(#skyg)"/>
+<ellipse cx="660" cy="239" rx="720" ry="85" fill="#9fb4ff" opacity="0.05" transform="rotate(-12 660 239)" filter="url(#haze)"/>
+<path d="M459.1,124.8 Q459.1,127.1 461.4,127.1 Q459.1,127.1 459.1,129.3 Q459.1,127.1 456.9,127.1 Q459.1,127.1 459.1,124.8 Z" fill="#e8e6ff" opacity="0.75"><animate attributeName="opacity" values="0.75;0.19;0.75" dur="5.6s" begin="1.1s" repeatCount="indefinite"/></path>
+<path d="M335.7,443.1 Q335.7,447.6 340.2,447.6 Q335.7,447.6 335.7,452.1 Q335.7,447.6 331.2,447.6 Q335.7,447.6 335.7,443.1 Z" fill="#e8e6ff" opacity="0.26"><animate attributeName="opacity" values="0.26;0.07;0.26" dur="6.0s" begin="0.1s" repeatCount="indefinite"/></path>
+<path d="M1131.4,514.2 Q1131.4,517.1 1134.3,517.1 Q1131.4,517.1 1131.4,520.0 Q1131.4,517.1 1128.5,517.1 Q1131.4,517.1 1131.4,514.2 Z" fill="#e8e6ff" opacity="0.34"><animate attributeName="opacity" values="0.34;0.09;0.34" dur="4.7s" begin="0.2s" repeatCount="indefinite"/></path>
+<path d="M936.6,22.2 Q936.6,25.0 939.5,25.0 Q936.6,25.0 936.6,27.9 Q936.6,25.0 933.7,25.0 Q936.6,25.0 936.6,22.2 Z" fill="#e8e6ff" opacity="0.71"><animate attributeName="opacity" values="0.71;0.18;0.71" dur="5.0s" begin="2.9s" repeatCount="indefinite"/></path>
+<path d="M156.0,352.1 Q156.0,353.7 157.6,353.7 Q156.0,353.7 156.0,355.3 Q156.0,353.7 154.4,353.7 Q156.0,353.7 156.0,352.1 Z" fill="#f5d58a" opacity="0.3"><animate attributeName="opacity" values="0.3;0.07;0.3" dur="5.7s" begin="0.7s" repeatCount="indefinite"/></path>
+<path d="M323.6,122.7 Q323.6,124.3 325.2,124.3 Q323.6,124.3 323.6,125.9 Q323.6,124.3 322.0,124.3 Q323.6,124.3 323.6,122.7 Z" fill="#e8e6ff" opacity="0.58"><animate attributeName="opacity" values="0.58;0.14;0.58" dur="5.6s" begin="3.4s" repeatCount="indefinite"/></path>
+<path d="M364.9,81.7 Q364.9,83.3 366.5,83.3 Q364.9,83.3 364.9,84.9 Q364.9,83.3 363.3,83.3 Q364.9,83.3 364.9,81.7 Z" fill="#e8e6ff" opacity="0.47"><animate attributeName="opacity" values="0.47;0.12;0.47" dur="4.2s" begin="1.6s" repeatCount="indefinite"/></path>
+<path d="M33.7,74.1 Q33.7,77.6 37.2,77.6 Q33.7,77.6 33.7,81.2 Q33.7,77.6 30.1,77.6 Q33.7,77.6 33.7,74.1 Z" fill="#e8e6ff" opacity="0.77"><animate attributeName="opacity" values="0.77;0.19;0.77" dur="4.4s" begin="1.1s" repeatCount="indefinite"/></path>
+<path d="M41.3,11.8 Q41.3,15.4 44.8,15.4 Q41.3,15.4 41.3,18.9 Q41.3,15.4 37.7,15.4 Q41.3,15.4 41.3,11.8 Z" fill="#f5d58a" opacity="0.43"><animate attributeName="opacity" values="0.43;0.11;0.43" dur="2.7s" begin="0.2s" repeatCount="indefinite"/></path>
+<path d="M1029.2,457.7 Q1029.2,459.3 1030.8,459.3 Q1029.2,459.3 1029.2,460.9 Q1029.2,459.3 1027.6,459.3 Q1029.2,459.3 1029.2,457.7 Z" fill="#e8e6ff" opacity="0.79"><animate attributeName="opacity" values="0.79;0.20;0.79" dur="5.6s" begin="1.7s" repeatCount="indefinite"/></path>
+<circle cx="848" cy="52" r="1.4" fill="#e8e6ff" opacity="0.48"/>
+<circle cx="1147" cy="133" r="1.1" fill="#e8e6ff" opacity="0.45"/>
+<circle cx="863" cy="415" r="0.5" fill="#e8e6ff" opacity="0.78"/>
+<circle cx="258" cy="362" r="0.9" fill="#e8e6ff" opacity="0.46"/>
+<circle cx="965" cy="329" r="0.9" fill="#e8e6ff" opacity="0.66"/>
+<circle cx="262" cy="93" r="0.5" fill="#e8e6ff" opacity="0.37"/>
+<circle cx="293" cy="518" r="1.4" fill="#e8e6ff" opacity="0.56"/>
+<circle cx="398" cy="126" r="0.5" fill="#e8e6ff" opacity="0.70"/>
+<circle cx="884" cy="108" r="1.1" fill="#e8e6ff" opacity="0.47"/>
+<circle cx="329" cy="191" r="0.7" fill="#e8e6ff" opacity="0.57"/>
+<circle cx="764" cy="273" r="0.7" fill="#e8e6ff" opacity="0.48"/>
+<circle cx="1146" cy="30" r="1.4" fill="#e8e6ff" opacity="0.63"/>
+<circle cx="481" cy="489" r="0.9" fill="#e8e6ff" opacity="0.41"/>
+<circle cx="458" cy="127" r="0.5" fill="#e8e6ff" opacity="0.73"/>
+<circle cx="703" cy="164" r="1.1" fill="#e8e6ff" opacity="0.63"/>
+<circle cx="600" cy="315" r="0.7" fill="#e8e6ff" opacity="0.52"/>
+<circle cx="353" cy="135" r="1.1" fill="#e8e6ff" opacity="0.77"/>
+<circle cx="72" cy="434" r="1.4" fill="#e8e6ff" opacity="0.26"/>
+<circle cx="239" cy="422" r="0.9" fill="#e8e6ff" opacity="0.76"/>
+<circle cx="514" cy="16" r="0.7" fill="#e8e6ff" opacity="0.73"/>
+<circle cx="184" cy="346" r="1.4" fill="#e8e6ff" opacity="0.46"/>
+<circle cx="1013" cy="329" r="1.4" fill="#e8e6ff" opacity="0.67"/>
+<circle cx="465" cy="104" r="1.4" fill="#e8e6ff" opacity="0.43"/>
+<circle cx="226" cy="41" r="1.4" fill="#e8e6ff" opacity="0.65"/>
+<circle cx="222" cy="258" r="1.1" fill="#e8e6ff" opacity="0.26"/>
+<circle cx="368" cy="424" r="1.4" fill="#e8e6ff" opacity="0.71"/>
+<circle cx="801" cy="396" r="0.9" fill="#e8e6ff" opacity="0.53"/>
+<circle cx="93" cy="209" r="0.7" fill="#e8e6ff" opacity="0.73"/>
+<circle cx="196" cy="54" r="0.5" fill="#e8e6ff" opacity="0.42"/>
+<circle cx="379" cy="440" r="0.7" fill="#e8e6ff" opacity="0.28"/>
+<circle cx="984" cy="436" r="0.5" fill="#e8e6ff" opacity="0.74"/>
+<circle cx="1149" cy="150" r="0.9" fill="#e8e6ff" opacity="0.44"/>
+<circle cx="1073" cy="252" r="1.4" fill="#e8e6ff" opacity="0.67"/>
+<circle cx="788" cy="353" r="1.4" fill="#e8e6ff" opacity="0.54"/>
+<circle cx="827" cy="474" r="0.7" fill="#f5d58a" opacity="0.69"/>
+<circle cx="335" cy="35" r="0.9" fill="#e8e6ff" opacity="0.40"/>
+<circle cx="1018" cy="148" r="0.5" fill="#e8e6ff" opacity="0.29"/>
+<circle cx="686" cy="89" r="1.4" fill="#e8e6ff" opacity="0.55"/>
+<circle cx="451" cy="499" r="0.9" fill="#e8e6ff" opacity="0.76"/>
+<circle cx="1126" cy="240" r="0.7" fill="#e8e6ff" opacity="0.27"/>
+<circle cx="359" cy="199" r="0.7" fill="#e8e6ff" opacity="0.52"/>
+<circle cx="612" cy="298" r="1.1" fill="#e8e6ff" opacity="0.72"/>
+<circle cx="1170" cy="384" r="1.1" fill="#f5d58a" opacity="0.50"/>
+<circle cx="1066" cy="470" r="0.5" fill="#e8e6ff" opacity="0.70"/>
+<circle cx="1159" cy="405" r="0.5" fill="#e8e6ff" opacity="0.30"/>
+<circle cx="333" cy="508" r="1.1" fill="#f5d58a" opacity="0.40"/>
+<circle cx="740" cy="327" r="0.5" fill="#e8e6ff" opacity="0.76"/>
+<circle cx="935" cy="494" r="1.1" fill="#e8e6ff" opacity="0.46"/>
+<circle cx="447" cy="501" r="0.5" fill="#e8e6ff" opacity="0.74"/>
+<circle cx="613" cy="363" r="0.9" fill="#e8e6ff" opacity="0.36"/><text x="44" y="54" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#f5d58a" letter-spacing="5" opacity="1.0">V · INSTRUMENTS</text><text x="1156" y="54" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7d839e" letter-spacing="3" opacity="1.0">35 TOOLS · 5 FAMILIES</text><line x1="44" y1="70" x2="1156" y2="70" stroke="#f5d58a" stroke-opacity="0.12"/><g class="rise" style="animation-delay:0.0s"><text x="44" y="131" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="21" fill="#f5d58a">AI &amp; ML</text><text x="44" y="151" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d839e" letter-spacing="3" opacity="1.0">7 INSTRUMENTS</text><text x="290" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">LLM Apps</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Embeddings &amp; RAG</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">PyTorch</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">TensorFlow</tspan></text><text x="290" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">Vision Transformers</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Whisper</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">LoRA Fine-tuning</tspan></text></g><line x1="44" y1="186" x2="1156" y2="186" stroke="#f5d58a" stroke-opacity="0.08"/><g class="rise" style="animation-delay:0.2s"><text x="44" y="224" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="21" fill="#f5d58a">Frontend</text><text x="44" y="244" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d839e" letter-spacing="3" opacity="1.0">7 INSTRUMENTS</text><text x="290" y="228" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">React</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">TypeScript</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Next.js</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Tailwind</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Three.js</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">D3</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">HTML / CSS</tspan></text></g><line x1="44" y1="262" x2="1156" y2="262" stroke="#f5d58a" stroke-opacity="0.08"/><g class="rise" style="animation-delay:0.4s"><text x="44" y="300" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="21" fill="#f5d58a">Backend</text><text x="44" y="320" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d839e" letter-spacing="3" opacity="1.0">8 INSTRUMENTS</text><text x="290" y="304" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">Node / Express</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Spring Boot</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">FastAPI</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Socket.IO</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">PostgreSQL</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">MySQL</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">MongoDB</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Prisma</tspan></text></g><line x1="44" y1="338" x2="1156" y2="338" stroke="#f5d58a" stroke-opacity="0.08"/><g class="rise" style="animation-delay:0.6s"><text x="44" y="376" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="21" fill="#f5d58a">Languages</text><text x="44" y="396" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d839e" letter-spacing="3" opacity="1.0">6 INSTRUMENTS</text><text x="290" y="380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">Python</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Java</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">JavaScript</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">TypeScript</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">C / C++</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">SQL</tspan></text></g><line x1="44" y1="414" x2="1156" y2="414" stroke="#f5d58a" stroke-opacity="0.08"/><g class="rise" style="animation-delay:0.8s"><text x="44" y="452" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="21" fill="#f5d58a">Cloud &amp; DevOps</text><text x="44" y="472" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d839e" letter-spacing="3" opacity="1.0">7 INSTRUMENTS</text><text x="290" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#efe9dc"><tspan dx="0">Docker</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">GitHub Actions</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Microservices</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Redis</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">AWS</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Oracle Cloud</tspan><tspan dx="14" fill="#f5d58a" fill-opacity="0.75" font-size="12">✦</tspan><tspan dx="14">Linux</tspan></text></g></svg>

@@ -1,71 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="What Manas is up to right now">
-<title>What Manas is up to right now</title>
-<defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="softglow" x="-20%" y="-50%" width="140%" height="200%">
-  <feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<radialGradient id="bgg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0d1428"/><stop offset="1" stop-color="#070b16"/></radialGradient>
-<linearGradient id="rail" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-</defs>
-<rect width="1200" height="330" rx="18" fill="url(#bgg)"/>
-<circle cx="701" cy="166" r="0.6" fill="#fff" opacity="0.26"><animate attributeName="opacity" values="0.26;0.05;0.26" dur="3.8s" repeatCount="indefinite"/></circle>
-<circle cx="531" cy="61" r="0.6" fill="#fff" opacity="0.36"><animate attributeName="opacity" values="0.36;0.05;0.36" dur="3.0s" repeatCount="indefinite"/></circle>
-<circle cx="39" cy="236" r="0.8" fill="#fff" opacity="0.36"><animate attributeName="opacity" values="0.36;0.05;0.36" dur="3.2s" repeatCount="indefinite"/></circle>
-<circle cx="32" cy="319" r="0.8" fill="#fff" opacity="0.30"><animate attributeName="opacity" values="0.30;0.05;0.30" dur="3.2s" repeatCount="indefinite"/></circle>
-<circle cx="229" cy="110" r="0.6" fill="#fff" opacity="0.34"><animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.4s" repeatCount="indefinite"/></circle>
-<circle cx="62" cy="240" r="1" fill="#fff" opacity="0.59"><animate attributeName="opacity" values="0.59;0.05;0.59" dur="4.8s" repeatCount="indefinite"/></circle>
-<circle cx="947" cy="317" r="1.2" fill="#fff" opacity="0.30"><animate attributeName="opacity" values="0.30;0.05;0.30" dur="2.8s" repeatCount="indefinite"/></circle>
-<circle cx="978" cy="208" r="1" fill="#fff" opacity="0.33"><animate attributeName="opacity" values="0.33;0.05;0.33" dur="2.2s" repeatCount="indefinite"/></circle>
-<circle cx="522" cy="29" r="0.6" fill="#fff" opacity="0.24"/>
-<circle cx="817" cy="6" r="0.6" fill="#fff" opacity="0.39"/>
-<circle cx="227" cy="168" r="1" fill="#fff" opacity="0.28"/>
-<circle cx="1169" cy="157" r="1.2" fill="#fff" opacity="0.57"/>
-<circle cx="1128" cy="11" r="1" fill="#fff" opacity="0.50"/>
-<circle cx="758" cy="130" r="1" fill="#fff" opacity="0.27"/>
-<circle cx="496" cy="167" r="1" fill="#fff" opacity="0.41"/>
-<circle cx="934" cy="133" r="1.2" fill="#fff" opacity="0.53"/>
-<circle cx="664" cy="305" r="1" fill="#fff" opacity="0.52"/>
-<circle cx="526" cy="147" r="1.2" fill="#fff" opacity="0.34"/>
-<circle cx="985" cy="167" r="1.2" fill="#fff" opacity="0.58"/>
-<circle cx="51" cy="57" r="0.6" fill="#fff" opacity="0.53"/>
-<circle cx="110" cy="228" r="0.6" fill="#fff" opacity="0.33"/>
-<circle cx="721" cy="264" r="0.6" fill="#fff" opacity="0.55"/>
-<circle cx="1047" cy="148" r="1" fill="#fff" opacity="0.60"/>
-<circle cx="2" cy="64" r="0.6" fill="#fff" opacity="0.34"/>
-<circle cx="374" cy="149" r="0.8" fill="#fff" opacity="0.30"/>
-<circle cx="59" cy="50" r="0.8" fill="#fff" opacity="0.43"/>
-<circle cx="14" cy="76" r="0.8" fill="#fff" opacity="0.29"/>
-<circle cx="675" cy="138" r="1" fill="#fff" opacity="0.52"/>
-<circle cx="642" cy="62" r="0.8" fill="#fff" opacity="0.45"/>
-<circle cx="50" cy="266" r="0.6" fill="#fff" opacity="0.54"/>
-<circle cx="122" cy="311" r="1" fill="#fff" opacity="0.23"/>
-<circle cx="558" cy="74" r="0.6" fill="#fff" opacity="0.46"/>
-<circle cx="914" cy="288" r="1" fill="#fff" opacity="0.36"/>
-<circle cx="793" cy="257" r="1" fill="#fff" opacity="0.53"/>
-<circle cx="713" cy="269" r="0.8" fill="#fff" opacity="0.25"/>
-<circle cx="9" cy="99" r="0.6" fill="#fff" opacity="0.34"/>
-<circle cx="230" cy="249" r="1" fill="#fff" opacity="0.37"/>
-<circle cx="778" cy="200" r="0.8" fill="#fff" opacity="0.30"/>
-<circle cx="1006" cy="21" r="0.8" fill="#fff" opacity="0.37"/>
-<circle cx="101" cy="72" r="0.8" fill="#fff" opacity="0.50"/>
-<circle cx="248" cy="72" r="1.2" fill="#fff" opacity="0.57"/>
-<circle cx="643" cy="138" r="0.8" fill="#fff" opacity="0.56"/>
-<circle cx="1140" cy="160" r="1.2" fill="#fff" opacity="0.39"/>
-<circle cx="705" cy="12" r="0.6" fill="#fff" opacity="0.27"/>
-<circle cx="115" cy="238" r="1" fill="#fff" opacity="0.40"/>
-<circle cx="74" cy="156" r="0.8" fill="#fff" opacity="0.50"/>
-<circle cx="331" cy="143" r="1" fill="#fff" opacity="0.39"/>
-<circle cx="236" cy="258" r="0.8" fill="#fff" opacity="0.24"/>
-<circle cx="359" cy="136" r="0.6" fill="#fff" opacity="0.28"/>
-<circle cx="585" cy="267" r="1" fill="#fff" opacity="0.59"/>
-<style>.rise { animation: rise .9s ease-out both } @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }</style><rect x="20" y="20" width="1160" height="46" rx="12" fill="#fff" fill-opacity="0.03"/>
-<circle cx="46" cy="43" r="6" fill="#f87171" opacity="0.85"/><circle cx="68" cy="43" r="6" fill="#fbbf24" opacity="0.85"/><circle cx="90" cy="43" r="6" fill="#34d399" opacity="0.85"/>
-<text x="130" y="48" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#e2e8f0" opacity="0.8">manas@asu:~$ <tspan fill="#22d3ee">watch</tspan> status --live</text>
-<circle cx="1062" cy="43" r="5" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<text x="1160" y="48" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#34d399">LIVE</text>
-<g class="rise" style="animation-delay:0.00s"><rect x="30" y="86" width="267" height="168" rx="14" fill="#22d3ee" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.4"/><text x="50" y="116" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#22d3ee" letter-spacing="3">TRAINING</text><text x="277" y="120" text-anchor="end" font-size="24">🎓</text><text x="50" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0">M.S. CS @ ASU</text><text x="50" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#e2e8f0" opacity="0.65">distributed systems + AI</text><rect x="50" y="218" width="227" height="6" rx="3" fill="#fff" fill-opacity="0.08"/><rect x="50" y="218" width="0" height="6" rx="3" fill="#22d3ee" filter="url(#glow)"><animate attributeName="width" values="0;227;227;0" keyTimes="0;0.6;0.9;1" dur="4.0s" repeatCount="indefinite"/></rect></g>
-<g class="rise" style="animation-delay:0.25s"><rect x="310" y="86" width="267" height="168" rx="14" fill="#f472b6" fill-opacity="0.05" stroke="#f472b6" stroke-opacity="0.4"/><text x="330" y="116" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#f472b6" letter-spacing="3">EXPLORING</text><text x="557" y="120" text-anchor="end" font-size="24">🧠</text><text x="330" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0">Vision Transformers</text><text x="330" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#e2e8f0" opacity="0.65">Whisper · RAG · LoRA</text><rect x="330" y="218" width="227" height="6" rx="3" fill="#fff" fill-opacity="0.08"/><rect x="330" y="218" width="0" height="6" rx="3" fill="#f472b6" filter="url(#glow)"><animate attributeName="width" values="0;227;227;0" keyTimes="0;0.6;0.9;1" dur="4.7s" repeatCount="indefinite"/></rect></g>
-<g class="rise" style="animation-delay:0.50s"><rect x="590" y="86" width="267" height="168" rx="14" fill="#a78bfa" fill-opacity="0.05" stroke="#a78bfa" stroke-opacity="0.4"/><text x="610" y="116" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#a78bfa" letter-spacing="3">SHIPPING</text><text x="837" y="120" text-anchor="end" font-size="24">🚀</text><text x="610" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0">Nocturne</text><text x="610" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#e2e8f0" opacity="0.65">portfolio under a real night sky</text><rect x="610" y="218" width="227" height="6" rx="3" fill="#fff" fill-opacity="0.08"/><rect x="610" y="218" width="0" height="6" rx="3" fill="#a78bfa" filter="url(#glow)"><animate attributeName="width" values="0;227;227;0" keyTimes="0;0.6;0.9;1" dur="5.4s" repeatCount="indefinite"/></rect></g>
-<g class="rise" style="animation-delay:0.75s"><rect x="870" y="86" width="267" height="168" rx="14" fill="#fbbf24" fill-opacity="0.05" stroke="#fbbf24" stroke-opacity="0.4"/><text x="890" y="116" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#fbbf24" letter-spacing="3">OFF-DUTY</text><text x="1117" y="120" text-anchor="end" font-size="24">🔭</text><text x="890" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0">Stargazing</text><text x="890" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#e2e8f0" opacity="0.65">soundtracks &amp; good stories</text><rect x="890" y="218" width="227" height="6" rx="3" fill="#fff" fill-opacity="0.08"/><rect x="890" y="218" width="0" height="6" rx="3" fill="#fbbf24" filter="url(#glow)"><animate attributeName="width" values="0;227;227;0" keyTimes="0;0.6;0.9;1" dur="6.1s" repeatCount="indefinite"/></rect></g>
-<clipPath id="tk"><rect x="20" y="272" width="1160" height="40"/></clipPath><rect x="20" y="272" width="1160" height="40" rx="10" fill="#fff" fill-opacity="0.03"/><g clip-path="url(#tk)"><text y="298" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#64748b"><tspan x="40">loss ↓  curiosity ↑  ✦  shipping full-stack + ML  ✦  open to SWE roles  ✦  coffee: brewing ☕  ✦  last seen: under a dark sky  ✦  backprop through bugs  ✦  forward_pass(idea) → product  ✦  loss ↓  curiosity ↑  ✦  shipping full-stack + ML  ✦  open to SWE roles  ✦  coffee: brewing ☕  ✦  last seen: under a dark sky  ✦  backprop through bugs  ✦  forward_pass(idea) → product</tspan><animateTransform attributeName="transform" type="translate" from="0 0" to="-1580 0" dur="28s" repeatCount="indefinite"/></text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Tonight: studying at ASU, exploring vision transformers, shipping Nocturne, stargazing"><title>Tonight: studying at ASU, exploring vision transformers, shipping Nocturne, stargazing</title><defs><radialGradient id="skyg" cx="50%" cy="0%" r="110%"><stop offset="0" stop-color="#0e1330"/><stop offset="1" stop-color="#03040b"/></radialGradient><filter id="haze" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="30"/></filter><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="softglow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>.rise{animation:rise 1.1s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}</style></defs><rect width="1200" height="330" rx="18" fill="url(#skyg)"/>
+<ellipse cx="660" cy="148" rx="720" ry="53" fill="#9fb4ff" opacity="0.05" transform="rotate(-12 660 148)" filter="url(#haze)"/>
+<path d="M203.3,221.7 Q203.3,224.6 206.2,224.6 Q203.3,224.6 203.3,227.5 Q203.3,224.6 200.4,224.6 Q203.3,224.6 203.3,221.7 Z" fill="#e8e6ff" opacity="0.51"><animate attributeName="opacity" values="0.51;0.13;0.51" dur="5.3s" begin="3.2s" repeatCount="indefinite"/></path>
+<path d="M614.7,164.4 Q614.7,166.6 617.0,166.6 Q614.7,166.6 614.7,168.8 Q614.7,166.6 612.5,166.6 Q614.7,166.6 614.7,164.4 Z" fill="#f5d58a" opacity="0.68"><animate attributeName="opacity" values="0.68;0.17;0.68" dur="5.8s" begin="1.7s" repeatCount="indefinite"/></path>
+<path d="M179.6,241.7 Q179.6,243.9 181.8,243.9 Q179.6,243.9 179.6,246.2 Q179.6,243.9 177.3,243.9 Q179.6,243.9 179.6,241.7 Z" fill="#e8e6ff" opacity="0.63"><animate attributeName="opacity" values="0.63;0.16;0.63" dur="6.0s" begin="3.1s" repeatCount="indefinite"/></path>
+<path d="M489.6,143.9 Q489.6,146.7 492.5,146.7 Q489.6,146.7 489.6,149.6 Q489.6,146.7 486.7,146.7 Q489.6,146.7 489.6,143.9 Z" fill="#e8e6ff" opacity="0.55"><animate attributeName="opacity" values="0.55;0.14;0.55" dur="4.8s" begin="3.8s" repeatCount="indefinite"/></path>
+<path d="M35.5,239.1 Q35.5,240.7 37.1,240.7 Q35.5,240.7 35.5,242.3 Q35.5,240.7 33.9,240.7 Q35.5,240.7 35.5,239.1 Z" fill="#e8e6ff" opacity="0.32"><animate attributeName="opacity" values="0.32;0.08;0.32" dur="4.1s" begin="2.2s" repeatCount="indefinite"/></path>
+<path d="M414.0,158.0 Q414.0,160.2 416.3,160.2 Q414.0,160.2 414.0,162.4 Q414.0,160.2 411.8,160.2 Q414.0,160.2 414.0,158.0 Z" fill="#e8e6ff" opacity="0.62"><animate attributeName="opacity" values="0.62;0.15;0.62" dur="5.4s" begin="0.3s" repeatCount="indefinite"/></path>
+<path d="M241.7,215.1 Q241.7,219.6 246.2,219.6 Q241.7,219.6 241.7,224.1 Q241.7,219.6 237.2,219.6 Q241.7,219.6 241.7,215.1 Z" fill="#f5d58a" opacity="0.79"><animate attributeName="opacity" values="0.79;0.20;0.79" dur="4.5s" begin="2.2s" repeatCount="indefinite"/></path>
+<path d="M467.4,112.9 Q467.4,115.1 469.6,115.1 Q467.4,115.1 467.4,117.4 Q467.4,115.1 465.2,115.1 Q467.4,115.1 467.4,112.9 Z" fill="#e8e6ff" opacity="0.74"><animate attributeName="opacity" values="0.74;0.18;0.74" dur="3.8s" begin="1.8s" repeatCount="indefinite"/></path>
+<path d="M464.8,316.9 Q464.8,320.4 468.3,320.4 Q464.8,320.4 464.8,323.9 Q464.8,320.4 461.2,320.4 Q464.8,320.4 464.8,316.9 Z" fill="#e8e6ff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.10;0.4" dur="3.1s" begin="2.9s" repeatCount="indefinite"/></path>
+<path d="M1171.2,7.3 Q1171.2,8.9 1172.8,8.9 Q1171.2,8.9 1171.2,10.5 Q1171.2,8.9 1169.6,8.9 Q1171.2,8.9 1171.2,7.3 Z" fill="#e8e6ff" opacity="0.55"><animate attributeName="opacity" values="0.55;0.14;0.55" dur="3.3s" begin="2.4s" repeatCount="indefinite"/></path>
+<circle cx="667" cy="204" r="0.7" fill="#e8e6ff" opacity="0.62"/>
+<circle cx="995" cy="112" r="1.4" fill="#e8e6ff" opacity="0.76"/>
+<circle cx="208" cy="298" r="0.7" fill="#e8e6ff" opacity="0.68"/>
+<circle cx="817" cy="220" r="0.7" fill="#e8e6ff" opacity="0.47"/>
+<circle cx="1146" cy="193" r="0.9" fill="#e8e6ff" opacity="0.52"/>
+<circle cx="301" cy="283" r="0.7" fill="#e8e6ff" opacity="0.56"/>
+<circle cx="490" cy="241" r="0.5" fill="#f5d58a" opacity="0.71"/>
+<circle cx="313" cy="99" r="1.1" fill="#e8e6ff" opacity="0.39"/>
+<circle cx="1039" cy="211" r="0.7" fill="#e8e6ff" opacity="0.79"/>
+<circle cx="575" cy="87" r="1.4" fill="#e8e6ff" opacity="0.75"/>
+<circle cx="1136" cy="290" r="0.9" fill="#e8e6ff" opacity="0.69"/>
+<circle cx="720" cy="142" r="1.4" fill="#e8e6ff" opacity="0.75"/>
+<circle cx="172" cy="193" r="0.7" fill="#f5d58a" opacity="0.67"/>
+<circle cx="819" cy="308" r="0.5" fill="#e8e6ff" opacity="0.40"/>
+<circle cx="304" cy="308" r="1.1" fill="#e8e6ff" opacity="0.39"/>
+<circle cx="1143" cy="292" r="0.7" fill="#e8e6ff" opacity="0.33"/>
+<circle cx="229" cy="210" r="0.7" fill="#f5d58a" opacity="0.29"/>
+<circle cx="341" cy="103" r="0.9" fill="#e8e6ff" opacity="0.47"/>
+<circle cx="744" cy="65" r="1.1" fill="#e8e6ff" opacity="0.36"/>
+<circle cx="904" cy="198" r="1.4" fill="#e8e6ff" opacity="0.73"/>
+<circle cx="944" cy="10" r="1.1" fill="#e8e6ff" opacity="0.73"/>
+<circle cx="679" cy="276" r="0.7" fill="#e8e6ff" opacity="0.39"/>
+<circle cx="379" cy="21" r="1.1" fill="#e8e6ff" opacity="0.34"/>
+<circle cx="1181" cy="265" r="1.4" fill="#e8e6ff" opacity="0.52"/>
+<circle cx="654" cy="27" r="1.4" fill="#e8e6ff" opacity="0.65"/>
+<circle cx="375" cy="228" r="1.4" fill="#e8e6ff" opacity="0.67"/>
+<circle cx="738" cy="110" r="0.7" fill="#e8e6ff" opacity="0.45"/>
+<circle cx="1184" cy="42" r="0.5" fill="#e8e6ff" opacity="0.61"/>
+<circle cx="964" cy="315" r="1.4" fill="#f5d58a" opacity="0.59"/>
+<circle cx="771" cy="147" r="1.4" fill="#e8e6ff" opacity="0.53"/>
+<circle cx="91" cy="16" r="1.1" fill="#e8e6ff" opacity="0.27"/>
+<circle cx="706" cy="135" r="1.1" fill="#e8e6ff" opacity="0.50"/>
+<circle cx="464" cy="161" r="0.5" fill="#e8e6ff" opacity="0.27"/>
+<circle cx="450" cy="198" r="0.7" fill="#e8e6ff" opacity="0.68"/>
+<circle cx="906" cy="218" r="1.4" fill="#e8e6ff" opacity="0.63"/>
+<circle cx="298" cy="296" r="1.1" fill="#e8e6ff" opacity="0.42"/>
+<circle cx="629" cy="231" r="0.5" fill="#e8e6ff" opacity="0.34"/>
+<circle cx="1045" cy="233" r="0.5" fill="#f5d58a" opacity="0.55"/>
+<circle cx="366" cy="304" r="1.1" fill="#e8e6ff" opacity="0.79"/>
+<circle cx="205" cy="144" r="0.9" fill="#e8e6ff" opacity="0.45"/>
+<circle cx="232" cy="34" r="0.5" fill="#e8e6ff" opacity="0.43"/>
+<circle cx="1009" cy="56" r="1.4" fill="#e8e6ff" opacity="0.36"/>
+<circle cx="336" cy="127" r="1.1" fill="#e8e6ff" opacity="0.51"/>
+<circle cx="739" cy="96" r="0.7" fill="#e8e6ff" opacity="0.62"/>
+<circle cx="125" cy="314" r="0.7" fill="#e8e6ff" opacity="0.27"/>
+<circle cx="1115" cy="229" r="0.5" fill="#e8e6ff" opacity="0.29"/>
+<circle cx="479" cy="147" r="1.1" fill="#f5d58a" opacity="0.38"/>
+<circle cx="653" cy="38" r="0.9" fill="#e8e6ff" opacity="0.35"/>
+<circle cx="12" cy="60" r="1.4" fill="#e8e6ff" opacity="0.69"/>
+<circle cx="635" cy="23" r="0.7" fill="#e8e6ff" opacity="0.48"/><text x="44" y="54" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#f5d58a" letter-spacing="5" opacity="1.0">II · TONIGHT</text><text x="1156" y="54" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7d839e" letter-spacing="3" opacity="1.0">OBSERVED FROM ARIZONA</text><line x1="44" y1="70" x2="1156" y2="70" stroke="#f5d58a" stroke-opacity="0.12"/><g class="rise" style="animation-delay:0.00s"><mask id="ph0"><circle cx="183" cy="124" r="20" fill="#fff"/><circle cx="195" cy="122.2" r="19.2" fill="#000"/></mask><circle cx="183" cy="124" r="20" fill="none" stroke="#f5d58a" stroke-opacity="0.25"/><circle cx="183" cy="124" r="20" fill="#f5d58a" mask="url(#ph0)" filter="url(#glow)"/><text x="183" y="178" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#f5d58a" letter-spacing="4" opacity="1.0">STUDYING</text><text x="183" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="23" fill="#efe9dc">M.S. CS @ ASU</text><text x="183" y="242" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="15" fill="#7d839e">distributed systems &amp; AI</text></g><line x1="322" y1="100" x2="322" y2="258" stroke="#f5d58a" stroke-opacity="0.12"/><g class="rise" style="animation-delay:0.25s"><mask id="ph1"><circle cx="461" cy="124" r="20" fill="#fff"/><circle cx="483" cy="120.7" r="19.2" fill="#000"/></mask><circle cx="461" cy="124" r="20" fill="none" stroke="#f5d58a" stroke-opacity="0.25"/><circle cx="461" cy="124" r="20" fill="#f5d58a" mask="url(#ph1)" filter="url(#glow)"/><text x="461" y="178" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#f5d58a" letter-spacing="4" opacity="1.0">EXPLORING</text><text x="461" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="23" fill="#efe9dc">Vision Transformers</text><text x="461" y="242" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="15" fill="#7d839e">Whisper · RAG · LoRA</text></g><line x1="600" y1="100" x2="600" y2="258" stroke="#f5d58a" stroke-opacity="0.12"/><g class="rise" style="animation-delay:0.50s"><mask id="ph2"><circle cx="739" cy="124" r="20" fill="#fff"/><circle cx="771" cy="119.2" r="19.2" fill="#000"/></mask><circle cx="739" cy="124" r="20" fill="none" stroke="#f5d58a" stroke-opacity="0.25"/><circle cx="739" cy="124" r="20" fill="#f5d58a" mask="url(#ph2)" filter="url(#glow)"/><text x="739" y="178" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#f5d58a" letter-spacing="4" opacity="1.0">SHIPPING</text><text x="739" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="23" fill="#efe9dc">Nocturne</text><text x="739" y="242" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="15" fill="#7d839e">a portfolio under the real sky</text></g><line x1="878" y1="100" x2="878" y2="258" stroke="#f5d58a" stroke-opacity="0.12"/><g class="rise" style="animation-delay:0.75s"><mask id="ph3"><circle cx="1017" cy="124" r="20" fill="#fff"/><circle cx="1077" cy="115.0" r="19.2" fill="#000"/></mask><circle cx="1017" cy="124" r="38" fill="#f5d58a" opacity="0.07" filter="url(#softglow)"/><circle cx="1017" cy="124" r="20" fill="none" stroke="#f5d58a" stroke-opacity="0.25"/><circle cx="1017" cy="124" r="20" fill="#f5d58a" mask="url(#ph3)" filter="url(#glow)"/><text x="1017" y="178" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#f5d58a" letter-spacing="4" opacity="1.0">OFF-DUTY</text><text x="1017" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="23" fill="#efe9dc">Stargazing</text><text x="1017" y="242" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="15" fill="#7d839e">soundtracks &amp; good stories</text></g><line x1="400" y1="282" x2="586" y2="282" stroke="#f5d58a" stroke-opacity="0.35"/><line x1="614" y1="282" x2="800" y2="282" stroke="#f5d58a" stroke-opacity="0.35"/><path d="M600.0,276.0 Q600.0,282.0 606.0,282.0 Q600.0,282.0 600.0,288.0 Q600.0,282.0 594.0,282.0 Q600.0,282.0 600.0,276.0 Z" fill="#f5d58a" opacity="0.9"></path><text x="600" y="310" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-style="italic" font-size="15" fill="#b9bdd0">Clear skies tonight · every instrument calibrated</text></svg>
