@@ -167,7 +167,7 @@ def tonight():
 
 # ---------------- JOURNEY (timeline) ----------------
 def journey():
-    W, H = 1200, 610
+    W, H = 1200, 648
     epochs = [
         ("Jun 2019 – Jun 2023", "B.Tech. Computer Science", "SRM Institute of Science & Tech.", "8.42 CGPA · software dev + ML"),
         ("Oct – Nov 2020", "Technical Content Writer", "Oyesters Training · Remote", "engineering articles & docs"),
@@ -175,12 +175,13 @@ def journey():
         ("Mar – Sep 2024", "Associate Engineer", "Brillio · Bengaluru", "+30% app efficiency · microservices"),
         ("Sep 2024 – Jul 2025", "Software Developer", "EQG Glassmach · India", "architected a company-wide OMS"),
         ("Aug 2025 – present", "M.S. Computer Science", "Arizona State University", "distributed systems & AI"),
+        ("Jun 2026 – present", "Software Development Intern", "Ramsey Products Corp. · Remote", "legacy ASP → React/Node, zero data loss"),
     ]
 
     def arc_y(x):
         return 318 - 60 * math.sin(math.pi * (x - 40) / 1120)
 
-    xs = [120 + i * 192 for i in range(6)]
+    xs = [120 + i * 160 for i in range(len(epochs))]
     arc = "M40,318 " + " ".join(f"L{x},{arc_y(x):.1f}" for x in range(60, 1161, 20))
     parts = [header("III", "The journey", "2019 → now"),
              f'<path id="ecl" d="{arc}" fill="none" stroke="{GOLD}" stroke-opacity="0.35" stroke-dasharray="1 6" stroke-linecap="round"/>',
@@ -193,7 +194,7 @@ def journey():
         tx = x - 76 if i == 0 else x + 76 if now else x
         top = y - 150 if above else y + 42
         stem = (y - 18, top + 104) if above else (y + 18, top - 2)
-        size = 6 + i * 0.9
+        size = 6 + i * 0.75
         parts.append(f'<g class="rise" style="animation-delay:{i * 0.3:.1f}s">'
                      f'<line x1="{x}" y1="{stem[0]:.0f}" x2="{x}" y2="{stem[1]:.0f}" stroke="{GOLD}" stroke-opacity="0.22"/>'
                      + caps(tx, round(top + 14), date, GOLD, 11, anchor, 3) +
@@ -207,13 +208,14 @@ def journey():
                          f'<animate attributeName="opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite"/></circle>')
         parts.append(sparkle(x, y, size + 3, GOLD, 1, (round(3 + i * 0.3, 1), round(i * 0.4, 1))))
     parts.append(f'<line x1="44" y1="506" x2="1156" y2="506" stroke="{GOLD}" stroke-opacity="0.12"/>' + caps(44, 536, "Honours", GOLD, 12, spacing=5))
-    honours = [("First place", "Hack-A-Code, among 35 teams"), ("Top 5", "HackBMU 4.0"), ("Top 25", "Zeta Hacks, of 200+ teams")]
+    honours = [("First place", "Design Experiences × Fulton Ambassadors Hackathon, ASU"), ("First place", "Hack-A-Code, among 35 teams"),
+               ("Top 5", "HackBMU 4.0"), ("Top 25", "Zeta Hacks, of 200+ teams")]
     for i, (rank, ev) in enumerate(honours):
-        hx = 44 + i * 372
-        parts.append(f'<g class="rise" style="animation-delay:{2 + i * 0.3:.1f}s">' + sparkle(hx + 8, 568, 7, GOLD, 1, (3, i)) +
-                     f'<text x="{hx + 26}" y="574" font-family="{SERIF}" font-size="18" fill="{GOLD}">{esc(rank)}'
+        hx, hy = 44 + (i % 2) * 560, 572 + (i // 2) * 40
+        parts.append(f'<g class="rise" style="animation-delay:{2 + i * 0.3:.1f}s">' + sparkle(hx + 8, hy - 6, 7, GOLD, 1, (3, i)) +
+                     f'<text x="{hx + 26}" y="{hy}" font-family="{SERIF}" font-size="18" fill="{GOLD}">{esc(rank)}'
                      f'<tspan font-style="italic" fill="{SOFT}" font-size="16" dx="10">{esc(ev)}</tspan></text></g>')
-    write("timeline.svg", svg(W, H, "The journey: B.Tech at SRM, Oyesters, EQG Glassmach, Brillio, M.S. CS at ASU; honours at Hack-A-Code, HackBMU 4.0, Zeta Hacks",
+    write("timeline.svg", svg(W, H, "The journey: B.Tech at SRM, Oyesters, EQG Glassmach, Brillio, M.S. CS at ASU, Ramsey Products; honours at the Fulton hackathon, Hack-A-Code, HackBMU 4.0, Zeta Hacks",
                               "".join(parts), seed=31, stars=80))
 
 

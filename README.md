@@ -25,7 +25,7 @@
 
 <img src="./assets/now.svg" width="100%" alt="Tonight: studying for an M.S. in CS at ASU, exploring vision transformers, Whisper, RAG and LoRA, shipping the Nocturne portfolio, and stargazing."/>
 
-<img src="./assets/timeline.svg" width="100%" alt="The journey: B.Tech CSE at SRM (2019–2023), Technical Content Writer at Oyesters (2020), Software Developer Trainee at EQG Glassmach (2023–24), Associate Engineer at Brillio (2024), Software Developer at EQG Glassmach (2024–25), M.S. CS at Arizona State University (2025–present). Honours: first place at Hack-A-Code, Top 5 at HackBMU 4.0, Top 25 at Zeta Hacks."/>
+<img src="./assets/timeline.svg" width="100%" alt="The journey: B.Tech CSE at SRM (2019–2023), Technical Content Writer at Oyesters (2020), Software Developer Trainee at EQG Glassmach (2023–24), Associate Engineer at Brillio (2024), Software Developer at EQG Glassmach (2024–25), M.S. CS at Arizona State University (2025–present), Software Development Intern at Ramsey Products Corporation (Jun 2026–present). Honours: first place at the Design Experiences × Fulton Ambassadors Hackathon (ASU), first place at Hack-A-Code, Top 5 at HackBMU 4.0, Top 25 at Zeta Hacks."/>
 
 <p align="center"><sub><i>Certified in</i> <b>Machine Learning</b> (Stanford) · <b>ML Foundations</b> (University of Washington) · <b>OCI Foundations</b> (Oracle)</sub></p>
 
